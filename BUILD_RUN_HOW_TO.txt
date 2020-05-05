@@ -1,0 +1,19 @@
+The source code is designed for both Windows OSs (Console Application) and Linux/Unix OSs.
+
+The instructions for building and running the executables are as follows;
+
+1 - Build/Make the Program (CreateEnctab). When this program executes, it will generate a binary file named enctab (encryption reference table).
+
+2 - Build/Make the Program (SIOGenerator).
+
+3 - Create and copy into a directory the enctab file, the SIOGenerator executable, and the sample.spf (specification file).
+
+4 - Execute the SIOGenerator executable. It will check for the enctab file, and then check for the sample.spf file. When both files have been validated, the code will execute the instructuions that appear in the sample.spf file.
+
+5 - This workflow is representative of how digital software programs generate synthetic data seemingly "out of thin air".
+
+6 - The commercial version of the software extends this core technology with a library of 50 additional logical data types that can themselves be extended with additional algorithmic complexity.
+
+
+
+ 
